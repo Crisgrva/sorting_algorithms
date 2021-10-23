@@ -148,4 +148,4 @@ typedef struct listint_s
 </ul>
 
 <p>Please use the &ldquo;short&rdquo; notation (don&rsquo;t use constants). Example: <code>O(nk)</code> or <code>O(wn)</code> should be written <code>O(n)</code>.
-If an answer is required within a file, all your answers files must have a newline at the end.</p>e
+If an answer is required within a file, all your answers files must have a newline at the end.</p>
