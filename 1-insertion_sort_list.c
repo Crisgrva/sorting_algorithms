@@ -11,8 +11,10 @@ void insertion_sort_list(listint_t **list)
 	listint_t *fst = *list, *scnd = NULL;
 
 	if (!(*list) || !(*list)->next)
+	{
+		print_list((const listint_t *)*list);
 		return;
-
+	}
 	while (fst != NULL)
 	{
 		if (fst->prev != NULL && fst->n < fst->prev->n)
